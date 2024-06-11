@@ -24,13 +24,13 @@ SOFTWARE.
 
 
 
-## protobuf-javascript License
+## protocolbuffers/protobuf-javascript License
 
 This project includes a submodule that is licensed under the following terms:
 - BSD-3-Clause
 - Apache-2.0
 
-### protobuf-javascript License Terms
+### protocolbuffers/protobuf-javascript License Terms
 
 The code in the submodule is subject to the following license terms:
 
@@ -38,5 +38,5 @@ The code in the submodule is subject to the following license terms:
 - **Apache-2.0**: Compliance with the terms of the Apache 2.0 license.
 
 For more information, see the submodule's license files:
-- [BSD-3-Clause license](path/to/submodule/LICENSE.BSD-3-Clause)
-- [Apache-2.0 license](path/to/submodule/LICENSE.Apache-2.0)
+- [BSD-3-Clause license](https://github.com/protocolbuffers/protobuf-javascript/blob/main/LICENSE.md)
+- [Apache-2.0 license](https://github.com/protocolbuffers/protobuf-javascript/blob/main/LICENSE-asserts.md)
