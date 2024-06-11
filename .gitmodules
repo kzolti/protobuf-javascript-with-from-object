@@ -1,0 +1,3 @@
+[submodule "protobuf-javascript"]
+	path = protobuf-javascript
+	url = https://github.com/kzolti/protobuf-javascript.git

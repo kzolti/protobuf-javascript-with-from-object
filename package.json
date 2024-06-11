@@ -1,0 +1,24 @@
+{
+  "name": "protobuf-javascript-with-from-object",
+  "version": "1.0.0",
+  "description": "protocolbuffers/protobuf-javascript with fromObject method",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kzolti/protobuf-javascript-with-from-object.git"
+  },
+  "keywords": [
+    "protobuf",
+    "javascript",
+    "fromObject"
+  ],
+  "author": "Zoltan Istvan KADA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kzolti/protobuf-javascript-with-from-object/issues"
+  },
+  "homepage": "https://github.com/kzolti/protobuf-javascript-with-from-object#readme"
+}
