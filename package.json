@@ -2,9 +2,13 @@
   "name": "protobuf-javascript-with-from-object",
   "version": "1.0.0",
   "description": "protocolbuffers/protobuf-javascript with fromObject method",
-  "main": "index.js",
+  "main": "dist/google-protobuf.js",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "node scripts/prepack.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/kzolti/protobuf-javascript-with-from-object/issues"
   },
-  "homepage": "https://github.com/kzolti/protobuf-javascript-with-from-object#readme"
+  "homepage": "https://github.com/kzolti/protobuf-javascript-with-from-object#readme",
+  "devDependencies": {
+    "shelljs": "^0.8.5"
+  }
 }
