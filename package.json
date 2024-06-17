@@ -1,6 +1,6 @@
 {
   "name": "protobuf-javascript-with-from-object",
-  "version": "1.0.0",
+  "version": "3.21.2",
   "description": "protocolbuffers/protobuf-javascript with fromObject method",
   "main": "dist/google-protobuf.js",
   "files": [
@@ -15,8 +15,8 @@
     "url": "git+https://github.com/kzolti/protobuf-javascript-with-from-object.git"
   },
   "keywords": [
-    "protobuf",
-    "javascript",
+    "google-protobuf",
+    "protobuf-javascript",
     "fromObject"
   ],
   "author": "Zoltan Istvan KADA",
