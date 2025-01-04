@@ -57,12 +57,12 @@ Add the following to package.json:
     "google-protobuf": "protobuf-javascript-with-from-object"
   },
 ```
-&emsp; &emsp; <b>If necessary, install and set up module-alias:</b>
+&emsp; <b>If necessary, install and set up module-alias:</b>
 ```
 npm install module-alias --save
 
 ```
-&emsp; &emsp;In index.js:
+&emsp;&emsp;In index.js:
 ```
 const moduleAlias = require('module-alias');
 moduleAlias.addAlias('google-protobuf', 'protobuf-javascript-with-from-object');
