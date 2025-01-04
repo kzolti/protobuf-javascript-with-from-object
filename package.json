@@ -4,11 +4,12 @@
   "description": "protocolbuffers/protobuf-javascript with fromObject method",
   "main": "dist/google-protobuf.js",
   "files": [
-    "dist/*"
+    "bin", "google", "google-protobuf.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepack": "node scripts/prepack.js"
+    "prepack": "node scripts/prepack.js",
+    "restore": "git clean -fd && git checkout -- ."
   },
   "repository": {
     "type": "git",
