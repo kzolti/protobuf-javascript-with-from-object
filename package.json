@@ -2,7 +2,7 @@
   "name": "protobuf-javascript-with-from-object",
   "version": "3.21.2",
   "description": "protocolbuffers/protobuf-javascript with fromObject method",
-  "main": "dist/google-protobuf.js",
+  "main": "google-protobuf.js",
   "files": [
     "bin", "google", "google-protobuf.js"
   ],
