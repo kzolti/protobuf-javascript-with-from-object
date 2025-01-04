@@ -50,6 +50,23 @@ npm run build
 ```
 npm install kzolti/protobuf-javascript-with-from-object --save
 ```    
+## Usage
+Add the following to package.json:
+```
+ "overrides": {
+    "google-protobuf": "protobuf-javascript-with-from-object"
+  },
+```
+&emsp; &emsp; <b>If necessary, install and set up module-alias:</b>
+```
+npm install module-alias --save
+
+```
+&emsp; &emsp;In index.js:
+```
+const moduleAlias = require('module-alias');
+moduleAlias.addAlias('google-protobuf', 'protobuf-javascript-with-from-object');
+```
 
 
     
