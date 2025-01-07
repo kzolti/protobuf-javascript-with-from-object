@@ -41,10 +41,15 @@ index 44d00b1..7b97962 100644
 ## Building from source
 
 ```
-git clone https://github.com/kzolti/protobuf-javascript.git
+git clone https://github.com/kzolti/protobuf-javascript-with-from-object.git
+cd protobuf-javascript-with-from-object                                     
+git submodule update --init
+git submodule update --remote
 cd protobuf-javascript
 npm install
 npm run build
+cd ..
+npm pack
 ```
 ## Installation
 ```
