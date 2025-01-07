@@ -1,6 +1,8 @@
 {
   "name": "protobuf-javascript-with-from-object",
   "version": "3.21.2-1",
+  "os": ["linux"],
+  "cpu": ["x64"],
   "bin": {
     "protoc-gen-js": "./bin/protoc-gen-js"
   },
@@ -13,8 +15,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepack": "node scripts/prepack.js",
-    "postinstall": "npm link"
+    "prepack": "node scripts/prepack.js"
   },
   "repository": {
     "type": "git",
