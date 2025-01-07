@@ -6,8 +6,8 @@ This is a fork of [protocolbuffers/protobuf-javascript](https://github.com/proto
 
 ###  Changes Made
 
-    Added a fromObject method to the generated JavaScript protobuf classes.
-    Referenced changes made in js_generator.cc to enable fromObject functionality.
+Added a fromObject method to the generated JavaScript protobuf classes.
+Referenced changes made in js_generator.cc to enable fromObject functionality.
 
 
 ### Manual check differencies
@@ -36,27 +36,19 @@ index 44d00b1..7b97962 100644
      // These must come *before* the extension-field info generation in
      // GenerateClassRegistration so that references to the binary
 ```
-
-
-## Building from source
-
-```
-git clone https://github.com/kzolti/protobuf-javascript-with-from-object.git
-cd protobuf-javascript-with-from-object                                     
-git submodule update --init
-git submodule update --remote
-cd protobuf-javascript
-npm install
-npm run build
-cd ..
-npm install
-npm pack
-```
-## Installation
+## Installation and usage
 ```
 npm install kzolti/protobuf-javascript-with-from-object --save
-```    
-## Usage
+```
+&emsp; <b>Generate protobuf pb.js file</b>
+```
+npx protoc --js_out=library=myproto_libs,binary:. messages.proto base.proto
+```
+
+&emsp; <b>Generate typescript definition files</b>
+```
+
+```
 Add the following to package.json:
 ```
  "overrides": {
@@ -73,7 +65,15 @@ npm install module-alias --save
 const moduleAlias = require('module-alias');
 moduleAlias.addAlias('google-protobuf', 'protobuf-javascript-with-from-object');
 ```
-
+## Building from source
+**Note:** Bazel runtime environment is required to build the project.
+```
+git clone https://github.com/kzolti/protobuf-javascript-with-from-object.git
+cd protobuf-javascript-with-from-object                                     
+npm install
+npm run build
+npm pack
+```
 
     
  
