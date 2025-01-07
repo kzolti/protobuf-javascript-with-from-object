@@ -49,6 +49,7 @@ cd protobuf-javascript
 npm install
 npm run build
 cd ..
+npm install
 npm pack
 ```
 ## Installation
