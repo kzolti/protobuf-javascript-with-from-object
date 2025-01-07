@@ -1,15 +1,20 @@
 {
   "name": "protobuf-javascript-with-from-object",
-  "version": "3.21.2",
+  "version": "3.21.2-1",
+  "bin": {
+    "protoc-gen-js": "./bin/protoc-gen-js"
+  },
   "description": "protocolbuffers/protobuf-javascript with fromObject method",
   "main": "google-protobuf.js",
   "files": [
-    "bin", "google", "google-protobuf.js"
+    "bin",
+    "google",
+    "google-protobuf.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepack": "node scripts/prepack.js",
-    "restore": "git clean -fd && git checkout -- ."
+    "postinstall": "npm link"
   },
   "repository": {
     "type": "git",
