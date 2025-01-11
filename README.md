@@ -57,7 +57,7 @@ protoc --js_out=library=myproto_libs,binary:. messages.proto
 ```
 &emsp; <b>Generate typescript definition files</b>
 
-&emsp; Install [protoc-gen-ts-with-from-object](https://github.com/kzolti/kzolti/protoc-gen-ts-with-from-object)
+&emsp; Install [protoc-gen-ts-with-from-object](https://github.com/kzolti/protoc-gen-ts-with-from-object)
 ```
 npm install protoc-gen-ts-with-from-object --save
 protoc --js_out=library=myproto_libs,binary:.  --ts_out=.  messages.proto
