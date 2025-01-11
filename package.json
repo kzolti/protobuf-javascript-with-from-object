@@ -4,8 +4,7 @@
   "os": ["linux"],
   "cpu": ["x64"],
   "bin": {
-    "protoc-gen-js": "./bin/protoc-gen-js",
-    "protoc":"./bin/protoc"
+    "protoc-gen-js": "./bin/protoc-gen-js"
   },
   "description": "protocolbuffers/protobuf-javascript with fromObject method",
   "main": "google-protobuf.js",

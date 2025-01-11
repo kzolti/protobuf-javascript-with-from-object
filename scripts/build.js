@@ -17,4 +17,4 @@ shell.echo("Entering the protobuf-javascript directory...");
 shell.cd("protobuf-javascript");
 runCommand("npm install", "Installing npm packages...");
 runCommand("npm run build", "Running the protobuf-javascript build process...");
-shell.echo("done");
+htopshell.echo("done");

@@ -1,14 +1,14 @@
 # kzolti/protobuf-javascript-with-from-object
 Google Protocol Buffers for JavaScript with fromObject method
 
-## Diferencies with upstream 
-This is a fork of [protocolbuffers/protobuf-javascript](https://github.com/protocolbuffers/protobuf-javascript) with the following changes:
+## kzolti/protobuf-javascript submodule
+
+This project uses a fork of [protocolbuffers/protobuf-javascript](https://github.com/protocolbuffers/protobuf-javascript) as a submodule. The fork, located at [kzolti/protobuf-javascript](https://github.com/kzolti/protobuf-javascript.git), includes the following differences compared to the upstream repository:
+
 
 ###  Changes Made
 
 Added a fromObject method to the generated JavaScript protobuf classes.
-Referenced changes made in js_generator.cc to enable fromObject functionality.
-
 
 ### Manual check differencies
 https://github.com/protocolbuffers/protobuf-javascript/compare/main...kzolti:protobuf-javascript:main?diff=split&w=
@@ -37,6 +37,8 @@ index 44d00b1..7b97962 100644
      // GenerateClassRegistration so that references to the binary
 ```
 ## Installation and usage
+Note: This package only includes the Linux_x86_64 binary. For other platforms, follow the instructions at [Building from Source](#building-from-source).
+
 ```
 npm install kzolti/protobuf-javascript-with-from-object --save
 ```
@@ -76,4 +78,136 @@ npm pack
 ```
 
     
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
