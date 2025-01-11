@@ -17,8 +17,4 @@ shell.echo("Entering the protobuf-javascript directory...");
 shell.cd("protobuf-javascript");
 runCommand("npm install", "Installing npm packages...");
 runCommand("npm run build", "Running the protobuf-javascript build process...");
-shell.echo("Entering the protobuf directory...")
-shell.cd("../protobuf");
-runCommand("npm install", "Installing npm packages in the protobuf directory...");
-runCommand("bazel build :protoc --cxxopt=-static --linkopt=-static", "Running protobuf Bazel build...");
 shell.echo("done");
