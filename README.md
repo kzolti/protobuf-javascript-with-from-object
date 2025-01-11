@@ -42,21 +42,35 @@ Note: This package only includes the Linux_x86_64 binary. For other platforms, f
 ```
 npm install kzolti/protobuf-javascript-with-from-object --save
 ```
-&emsp; <b>Generate protobuf pb.js file</b>
-```
-npx protoc --js_out=library=myproto_libs,binary:. messages.proto base.proto
-```
-
-&emsp; <b>Generate typescript definition files</b>
-```
-
-```
-Add the following to package.json:
+&emsp; If other modules reference the google-protobuf package, add the following to package.json:
 ```
  "overrides": {
     "google-protobuf": "protobuf-javascript-with-from-object"
-  },
+  }
 ```
+&emsp; or yarn resolutions.
+
+
+&emsp; <b>Generate protobuf pb.js file</b>
+```
+protoc --js_out=library=myproto_libs,binary:. messages.proto
+```
+&emsp; <b>Generate typescript definition files</b>
+
+&emsp; Install [protoc-gen-ts-with-from-object](https://github.com/kzolti/kzolti/protoc-gen-ts-with-from-object)
+```
+npm install protoc-gen-ts-with-from-object --save
+protoc --js_out=library=myproto_libs,binary:.  --ts_out=.  messages.proto
+```
+&emsp; <b>Using latest protoc binary from your project:</b>
+
+&emsp; install [latest-protoc-binary](https://github.com/kzolti/latest-protoc-binary)
+```
+npm i latest-protoc-binary
+npx protoc --version
+```
+
+
 &emsp; <b>If necessary, install and set up module-alias:</b>
 ```
 npm install module-alias --save
@@ -76,138 +90,30 @@ npm install
 npm run build
 npm pack
 ```
-
-    
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
