@@ -53,14 +53,14 @@ npm install kzolti/protobuf-javascript-with-from-object --save
 
 &emsp; <b>Generate protobuf pb.js file</b>
 ```
-protoc --js_out=library=myproto_libs,binary:. messages.proto
+protoc --js_out=import_style=commonjs,binary:. messages.proto
 ```
 &emsp; <b>Generate typescript definition files</b>
 
 &emsp; Install [protoc-gen-ts-with-from-object](https://github.com/kzolti/protoc-gen-ts-with-from-object)
 ```
 npm install protoc-gen-ts-with-from-object --save
-protoc --js_out=library=myproto_libs,binary:.  --ts_out=.  messages.proto
+protoc --js_out=import_style=commonjs,binary:.  --ts_out=.  messages.proto
 ```
 &emsp; <b>Using latest protoc binary from your project:</b>
 
